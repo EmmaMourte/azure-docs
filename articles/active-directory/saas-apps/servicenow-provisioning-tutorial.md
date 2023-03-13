@@ -88,7 +88,7 @@ To configure automatic user provisioning for ServiceNow in Azure AD:
 
 - Tenant URL: https://**InsertInstanceName**.service-now.com/api/now/scim
 - Authorization Endpoint: https://**InsertInstanceName**.service-now.com/oauth_auth.do?response_type=code&client_id=**InsertClientID**&state=1&scope=useraccount&redirect_uri=https%3A%2F%2Fportal.azure.com%2FTokenAuthorize
-- Token Endoint: https://**InsertInstanceName**.service-now.com/api/now/scim
+- Token Endoint: https://**InsertInstanceName**.service-now.com/oauth_token.do
 
 ![Screenshot that shows the Service Provisioning page, where you can enter admin credentials.](./media/servicenow-provisioning-tutorial/servicenow-provisioning.png)
 
